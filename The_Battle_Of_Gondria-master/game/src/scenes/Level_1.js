@@ -17,8 +17,8 @@ class Level_1 extends Phaser.Scene {
 
     preload() {
         this.secs = 0;
-
-
+        
+       
     }
 
 
