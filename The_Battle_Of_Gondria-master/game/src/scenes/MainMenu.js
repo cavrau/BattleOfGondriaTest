@@ -12,6 +12,7 @@ class MainMenu extends Phaser.Scene {
         anim.criaAnims(this.anims);
         this.load.tilemapTiledJSON("map_mainMenu", "assets/tilemap/mainMenuMap.json");
         this.load.image('logo', 'assets/images/logo.png');
+        this.load.image('beta', 'assets/images/menus/beta.png');
         
     }
 
@@ -71,6 +72,8 @@ class MainMenu extends Phaser.Scene {
                 this.scene.scene.start('AjudaScene');
             },150)
         });
+
+        this.add.image(720, 120, 'beta').setScale(0.8);
         
     }
 

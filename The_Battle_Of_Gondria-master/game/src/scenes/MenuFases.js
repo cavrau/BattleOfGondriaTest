@@ -29,7 +29,7 @@ class MenuFases extends Phaser.Scene {
             }, 150);
         });
 
-        this.faseDisponivel = 4;
+        this.faseDisponivel = 1;
 
         //Fase 1
         if ((this.faseDisponivel == 1) || (this.faseDisponivel >= 1)) {
